@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4A148C, #009688);
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.auth-buttons button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.auth-buttons .signup {
+    background-color: #8E24AA;
+    color: white;
+    margin-right: 10px;
+}
+
+.auth-buttons .login {
+    background-color: white;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero h1 {
+    font-size: 96px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.cta-buttons button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.cta-buttons .start-designing {
+    background-color: white;
+    color: black;
+}
+
+.cta-buttons .explore-launches {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: 1px solid white;
+}
